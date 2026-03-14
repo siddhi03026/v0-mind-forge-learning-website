@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
-import { Video, Search, Cube, FileQuestion, ArrowRight, BookOpen, Trophy, Clock } from "lucide-react"
+import { Video, Search, Box, FileQuestion, ArrowRight, BookOpen, Trophy, Clock } from "lucide-react"
 import { motion } from "framer-motion"
 
 const quickActions = [
@@ -25,7 +25,7 @@ const quickActions = [
   {
     title: "Explore 3D Models",
     description: "Interactive 3D models for visual learning",
-    icon: Cube,
+    icon: Box,
     href: "/3d-explorer",
     color: "chart-4",
   },

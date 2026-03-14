@@ -18,7 +18,7 @@ import {
   LayoutDashboard,
   Video,
   Search,
-  Cube,
+  Box,
   FileQuestion,
   Sparkles,
   Home,
@@ -47,7 +47,7 @@ const mainNavItems = [
   {
     title: "3D Explorer",
     href: "/3d-explorer",
-    icon: Cube,
+    icon: Box,
   },
   {
     title: "Quiz",

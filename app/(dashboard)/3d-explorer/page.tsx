@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Slider } from "@/components/ui/slider"
-import { Cube, Heart, Hexagon, Building, RotateCcw, ZoomIn, ZoomOut, Move3D, Info } from "lucide-react"
+import { Box, Heart, Hexagon, Building, RotateCcw, ZoomIn, ZoomOut, Move3D, Info } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 
 const topics = [
@@ -75,7 +75,7 @@ export default function Explorer3DPage() {
       >
         <div className="flex items-center gap-3 mb-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-chart-4/10">
-            <Cube className="h-5 w-5 text-chart-4" />
+            <Box className="h-5 w-5 text-chart-4" />
           </div>
           <h1
             className="text-3xl font-bold tracking-tight"
