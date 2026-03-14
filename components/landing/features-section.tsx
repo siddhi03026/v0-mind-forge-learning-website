@@ -1,6 +1,6 @@
 "use client"
 
-import { Video, Search, Cube, FileQuestion } from "lucide-react"
+import { Video, Search, Box, FileQuestion } from "lucide-react"
 import { motion } from "framer-motion"
 
 const features = [
@@ -19,7 +19,7 @@ const features = [
     color: "accent",
   },
   {
-    icon: Cube,
+    icon: Box,
     title: "3D Concept Explorer",
     description:
       "Interactive 3D models for human anatomy, geometry shapes, and structures. Learn by exploring.",
